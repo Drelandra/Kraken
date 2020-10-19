@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86641CB525162424004B5E82 /* NetworkingHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86641CB425162424004B5E82 /* NetworkingHandler.swift */; };
+		86641CB725164E7E004B5E82 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86641CB625164E7E004B5E82 /* Alert.swift */; };
+		86641CBF25174228004B5E82 /* UnsplashTheKrakenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86641CBE25174228004B5E82 /* UnsplashTheKrakenTests.swift */; };
+		86657D5B253DAD3F0024D487 /* Secret.plist in Resources */ = {isa = PBXBuildFile; fileRef = 86657D5A253DAD3F0024D487 /* Secret.plist */; };
+		86657D5F253DAE160024D487 /* Plist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86657D5E253DAE160024D487 /* Plist.swift */; };
+		86B5275725189FDD00FC3241 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B5275625189FDD00FC3241 /* PreviewViewController.swift */; };
+		86C3911525135D1500462218 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C3911425135D1500462218 /* AppDelegate.swift */; };
+		86C3911725135D1500462218 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C3911625135D1500462218 /* SceneDelegate.swift */; };
+		86C3911925135D1500462218 /* WallpapersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C3911825135D1500462218 /* WallpapersViewController.swift */; };
+		86C3911C25135D1500462218 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86C3911A25135D1500462218 /* Main.storyboard */; };
+		86C3911E25135D1800462218 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86C3911D25135D1800462218 /* Assets.xcassets */; };
+		86C3912125135D1800462218 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86C3911F25135D1800462218 /* LaunchScreen.storyboard */; };
+		86E10A3325136279008B2B6A /* WallpapersCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E10A3125136279008B2B6A /* WallpapersCollectionViewCell.swift */; };
+		86E10A3425136279008B2B6A /* WallpapersCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86E10A3225136279008B2B6A /* WallpapersCollectionViewCell.xib */; };
+		86E10A362513628C008B2B6A /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E10A352513628C008B2B6A /* K.swift */; };
+		86E10A3825136B7B008B2B6A /* UnsplashManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E10A3725136B7B008B2B6A /* UnsplashManager.swift */; };
+		86E10A3C251376B6008B2B6A /* UnsplashModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E10A3B251376B6008B2B6A /* UnsplashModel.swift */; };
+		86E10A3E251376CB008B2B6A /* UnsplashData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E10A3D251376CB008B2B6A /* UnsplashData.swift */; };
+		86E10A4325139F66008B2B6A /* ImageLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E10A4225139F66008B2B6A /* ImageLoaderView.swift */; };
+		86E10A452514BA1A008B2B6A /* WallpapersViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E10A442514BA1A008B2B6A /* WallpapersViewLayout.swift */; };
+		86EBED6C2522373700FAB84B /* UnsplashTheKrakenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EBED6B2522373700FAB84B /* UnsplashTheKrakenUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86641CC125174228004B5E82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86C3910925135D1500462218 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86C3911025135D1500462218;
+			remoteInfo = "Unsplash The Kraken";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		86641CB425162424004B5E82 /* NetworkingHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingHandler.swift; sourceTree = "<group>"; };
+		86641CB625164E7E004B5E82 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		86641CBC25174228004B5E82 /* UnsplashTheKrakenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnsplashTheKrakenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86641CBE25174228004B5E82 /* UnsplashTheKrakenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashTheKrakenTests.swift; sourceTree = "<group>"; };
+		86641CC025174228004B5E82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86657D5A253DAD3F0024D487 /* Secret.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Secret.plist; sourceTree = "<group>"; };
+		86657D5E253DAE160024D487 /* Plist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plist.swift; sourceTree = "<group>"; };
+		86B5275625189FDD00FC3241 /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		86C3911125135D1500462218 /* Unsplash The Kraken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unsplash The Kraken.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86C3911425135D1500462218 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		86C3911625135D1500462218 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		86C3911825135D1500462218 /* WallpapersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpapersViewController.swift; sourceTree = "<group>"; };
+		86C3911B25135D1500462218 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86C3911D25135D1800462218 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86C3912025135D1800462218 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86C3912225135D1800462218 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86E10A3125136279008B2B6A /* WallpapersCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpapersCollectionViewCell.swift; sourceTree = "<group>"; };
+		86E10A3225136279008B2B6A /* WallpapersCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WallpapersCollectionViewCell.xib; sourceTree = "<group>"; };
+		86E10A352513628C008B2B6A /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
+		86E10A3725136B7B008B2B6A /* UnsplashManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashManager.swift; sourceTree = "<group>"; };
+		86E10A3B251376B6008B2B6A /* UnsplashModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashModel.swift; sourceTree = "<group>"; };
+		86E10A3D251376CB008B2B6A /* UnsplashData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashData.swift; sourceTree = "<group>"; };
+		86E10A4225139F66008B2B6A /* ImageLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoaderView.swift; sourceTree = "<group>"; };
+		86E10A442514BA1A008B2B6A /* WallpapersViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpapersViewLayout.swift; sourceTree = "<group>"; };
+		86EBED6B2522373700FAB84B /* UnsplashTheKrakenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashTheKrakenUITests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86641CB925174228004B5E82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86C3910E25135D1500462218 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		865F67AE25190A3000CF8BBE /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				86E10A4225139F66008B2B6A /* ImageLoaderView.swift */,
+				86E10A442514BA1A008B2B6A /* WallpapersViewLayout.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		865F67AF25190A3500CF8BBE /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				86E10A3125136279008B2B6A /* WallpapersCollectionViewCell.swift */,
+				86E10A3225136279008B2B6A /* WallpapersCollectionViewCell.xib */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		865F67B025190A4C00CF8BBE /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				86C3911A25135D1500462218 /* Main.storyboard */,
+				86C3911F25135D1800462218 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		865F67B325190AEA00CF8BBE /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				86E10A3725136B7B008B2B6A /* UnsplashManager.swift */,
+				86641CB425162424004B5E82 /* NetworkingHandler.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		86641CBD25174228004B5E82 /* UnsplashTheKrakenTests */ = {
+			isa = PBXGroup;
+			children = (
+				86641CBE25174228004B5E82 /* UnsplashTheKrakenTests.swift */,
+				86641CC025174228004B5E82 /* Info.plist */,
+				86EBED6B2522373700FAB84B /* UnsplashTheKrakenUITests.swift */,
+			);
+			path = UnsplashTheKrakenTests;
+			sourceTree = "<group>";
+		};
+		86C3910825135D1500462218 = {
+			isa = PBXGroup;
+			children = (
+				86C3911325135D1500462218 /* Unsplash The Kraken */,
+				86641CBD25174228004B5E82 /* UnsplashTheKrakenTests */,
+				86C3911225135D1500462218 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86C3911225135D1500462218 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86C3911125135D1500462218 /* Unsplash The Kraken.app */,
+				86641CBC25174228004B5E82 /* UnsplashTheKrakenTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86C3911325135D1500462218 /* Unsplash The Kraken */ = {
+			isa = PBXGroup;
+			children = (
+				86C3912925135D2400462218 /* Model */,
+				86C3912B25135D3600462218 /* View */,
+				86C3912A25135D2F00462218 /* Controller */,
+				86C3911425135D1500462218 /* AppDelegate.swift */,
+				86C3911625135D1500462218 /* SceneDelegate.swift */,
+				86C3911D25135D1800462218 /* Assets.xcassets */,
+				86C3912225135D1800462218 /* Info.plist */,
+				86657D5A253DAD3F0024D487 /* Secret.plist */,
+				86657D5E253DAE160024D487 /* Plist.swift */,
+				86641CB625164E7E004B5E82 /* Alert.swift */,
+				86E10A352513628C008B2B6A /* K.swift */,
+			);
+			path = "Unsplash The Kraken";
+			sourceTree = "<group>";
+		};
+		86C3912925135D2400462218 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				865F67B325190AEA00CF8BBE /* Networking */,
+				86E10A3D251376CB008B2B6A /* UnsplashData.swift */,
+				86E10A3B251376B6008B2B6A /* UnsplashModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		86C3912A25135D2F00462218 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				86C3911825135D1500462218 /* WallpapersViewController.swift */,
+				86B5275625189FDD00FC3241 /* PreviewViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		86C3912B25135D3600462218 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				865F67B025190A4C00CF8BBE /* Storyboard */,
+				865F67AF25190A3500CF8BBE /* CollectionViewCell */,
+				865F67AE25190A3000CF8BBE /* CustomView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86641CBB25174228004B5E82 /* UnsplashTheKrakenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86641CC325174228004B5E82 /* Build configuration list for PBXNativeTarget "UnsplashTheKrakenTests" */;
+			buildPhases = (
+				86641CB825174228004B5E82 /* Sources */,
+				86641CB925174228004B5E82 /* Frameworks */,
+				86641CBA25174228004B5E82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86641CC225174228004B5E82 /* PBXTargetDependency */,
+			);
+			name = UnsplashTheKrakenTests;
+			productName = UnsplashTheKrakenTests;
+			productReference = 86641CBC25174228004B5E82 /* UnsplashTheKrakenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		86C3911025135D1500462218 /* Unsplash The Kraken */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86C3912525135D1800462218 /* Build configuration list for PBXNativeTarget "Unsplash The Kraken" */;
+			buildPhases = (
+				86C3910D25135D1500462218 /* Sources */,
+				86C3910E25135D1500462218 /* Frameworks */,
+				86C3910F25135D1500462218 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Unsplash The Kraken";
+			packageProductDependencies = (
+			);
+			productName = "Unsplash The Kraken";
+			productReference = 86C3911125135D1500462218 /* Unsplash The Kraken.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86C3910925135D1500462218 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = "Andre Elandra";
+				TargetAttributes = {
+					86641CBB25174228004B5E82 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 86C3911025135D1500462218;
+					};
+					86C3911025135D1500462218 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = 86C3910C25135D1500462218 /* Build configuration list for PBXProject "Unsplash The Kraken" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86C3910825135D1500462218;
+			packageReferences = (
+			);
+			productRefGroup = 86C3911225135D1500462218 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86C3911025135D1500462218 /* Unsplash The Kraken */,
+				86641CBB25174228004B5E82 /* UnsplashTheKrakenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86641CBA25174228004B5E82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86C3910F25135D1500462218 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86C3912125135D1800462218 /* LaunchScreen.storyboard in Resources */,
+				86C3911E25135D1800462218 /* Assets.xcassets in Resources */,
+				86657D5B253DAD3F0024D487 /* Secret.plist in Resources */,
+				86E10A3425136279008B2B6A /* WallpapersCollectionViewCell.xib in Resources */,
+				86C3911C25135D1500462218 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86641CB825174228004B5E82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86641CBF25174228004B5E82 /* UnsplashTheKrakenTests.swift in Sources */,
+				86EBED6C2522373700FAB84B /* UnsplashTheKrakenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86C3910D25135D1500462218 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86657D5F253DAE160024D487 /* Plist.swift in Sources */,
+				86C3911925135D1500462218 /* WallpapersViewController.swift in Sources */,
+				86E10A452514BA1A008B2B6A /* WallpapersViewLayout.swift in Sources */,
+				86E10A3E251376CB008B2B6A /* UnsplashData.swift in Sources */,
+				86E10A3C251376B6008B2B6A /* UnsplashModel.swift in Sources */,
+				86E10A4325139F66008B2B6A /* ImageLoaderView.swift in Sources */,
+				86641CB725164E7E004B5E82 /* Alert.swift in Sources */,
+				86E10A3825136B7B008B2B6A /* UnsplashManager.swift in Sources */,
+				86E10A362513628C008B2B6A /* K.swift in Sources */,
+				86641CB525162424004B5E82 /* NetworkingHandler.swift in Sources */,
+				86C3911525135D1500462218 /* AppDelegate.swift in Sources */,
+				86C3911725135D1500462218 /* SceneDelegate.swift in Sources */,
+				86B5275725189FDD00FC3241 /* PreviewViewController.swift in Sources */,
+				86E10A3325136279008B2B6A /* WallpapersCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86641CC225174228004B5E82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86C3911025135D1500462218 /* Unsplash The Kraken */;
+			targetProxy = 86641CC125174228004B5E82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		86C3911A25135D1500462218 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86C3911B25135D1500462218 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86C3911F25135D1800462218 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86C3912025135D1800462218 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86641CC425174228004B5E82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8MZ5MU996K;
+				INFOPLIST_FILE = UnsplashTheKrakenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.andreelandra.UnsplashTheKrakenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Unsplash The Kraken.app/Unsplash The Kraken";
+			};
+			name = Debug;
+		};
+		86641CC525174228004B5E82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8MZ5MU996K;
+				INFOPLIST_FILE = UnsplashTheKrakenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.andreelandra.UnsplashTheKrakenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Unsplash The Kraken.app/Unsplash The Kraken";
+			};
+			name = Release;
+		};
+		86C3912325135D1800462218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		86C3912425135D1800462218 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86C3912625135D1800462218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8MZ5MU996K;
+				INFOPLIST_FILE = "Unsplash The Kraken/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andreelandra.Unsplash-The-Kraken";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		86C3912725135D1800462218 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8MZ5MU996K;
+				INFOPLIST_FILE = "Unsplash The Kraken/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andreelandra.Unsplash-The-Kraken";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86641CC325174228004B5E82 /* Build configuration list for PBXNativeTarget "UnsplashTheKrakenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86641CC425174228004B5E82 /* Debug */,
+				86641CC525174228004B5E82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86C3910C25135D1500462218 /* Build configuration list for PBXProject "Unsplash The Kraken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86C3912325135D1800462218 /* Debug */,
+				86C3912425135D1800462218 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86C3912525135D1800462218 /* Build configuration list for PBXNativeTarget "Unsplash The Kraken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86C3912625135D1800462218 /* Debug */,
+				86C3912725135D1800462218 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86C3910925135D1500462218 /* Project object */;
+}
